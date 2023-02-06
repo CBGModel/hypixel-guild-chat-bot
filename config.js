@@ -1,16 +1,16 @@
 module.exports = {
    bot: {
-      prefix: 'h!', // Deprecated. It can still be used in a guild channel to prevent the message from being sent.
-      owner: 'xMdb#7897', // Set this to your Discord username
+      prefix: 'g!', // Deprecated. It can still be used in a guild channel to prevent the message from being sent.
+      owner: 'Model#0001', // Set this to your Discord username
    },
 
    ids: {
-      owner: '253699775377965056', // Bot owner (to enable dev commands)
-      testingServer: '558901518808383488', // Server to test slash commands in (registers in both prod and testing server by default)
-      server: '520948670758387722', // Prod server (has guildChannel and trustedRole)
-      guildChannel: '833112550970359830', // Channel to send and receive Minecraft messages
-      trustedRole: '520952297694560276', // Role to access certain restricted commands (currently only "say" command at the moment)
-      moderatorRole: '762473575277133824', // Role used for access to moderator commands
+      owner: '963518279832453140', // Bot owner (to enable dev commands)
+      testingServer: '1052926809139847179', // Server to test slash commands in (registers in both prod and testing server by default)
+      server: '1052926809139847179', // Prod server (has guildChannel and trustedRole)
+      guildChannel: '1071997459829637253', // Channel to send and receive Minecraft messages
+      trustedRole: '1053098010927702026', // Role to access certain restricted commands (currently only "say" command at the moment)
+      moderatorRole: '1053098010927702026', // Role used for access to moderator commands
    },
 
    // These messages are pre-set messages for when things go wrong.
